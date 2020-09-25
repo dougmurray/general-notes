@@ -7,9 +7,10 @@ Esc (normal mode).
 u  Undo.
 h/j/k/l  direction.
 0/$  beginning / end of line.
+gg/GG  beginning / end of file.
+A  append at end of line (goes right into Insert mode).
 w  forward per word.
 b  back per word.
-e  end per word.
 :e <filename> load file.
 :w <filename> save file.
 x  delete one character.
@@ -19,6 +20,5 @@ yy  copy line.
 y  copy.
 p  paste (capital P for pasting before cursor, which is useful).
 v  Visual Mode (great for cutting, y, and pasting, p).
-A  append at end of line (goes right into Insert mode).
 /<pattern>  search.
 n  go to next search result.
